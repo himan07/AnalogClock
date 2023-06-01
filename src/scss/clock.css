@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #ddd;
 }
 .container {
@@ -16,9 +16,8 @@ body{
   display: flex;
   align-items: center;
   position: relative;
-  top: 10rem;
+  top: 5rem;
   background: aliceblue;
-
 }
 
 .dot {
@@ -36,7 +35,7 @@ body{
   box-shadow: 0 2px 4px -1px black;
 }
 
-.hour_hand{
+.hour_hand {
   position: absolute;
   z-index: 5;
   width: 4px;
@@ -50,7 +49,7 @@ body{
   left: calc(50% - 0px);
 }
 
-.minute_hand{
+.minute_hand {
   position: absolute;
   z-index: 6;
   width: 4px;
@@ -64,7 +63,7 @@ body{
   transform-origin: 50% 102px;
 }
 
-.second_hand{
+.second_hand {
   position: absolute;
   z-index: 7;
   width: 2px;
@@ -83,11 +82,10 @@ span {
   position: absolute;
   color: #333;
   font-size: 22px;
-  font-family: 'Poiret One';
+  font-family: "Poiret One";
   font-weight: 700;
   z-index: 4;
 }
-
 
 .h12 {
   top: 30px;
